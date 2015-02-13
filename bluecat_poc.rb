@@ -9,4 +9,5 @@ require './bluecat_api.rb'
 # 4.	The API to allow ASM to return the set of IPs once we finish using them
 
 # Run the poc to demonstrate above operations
-bam = Bluecat::Api.new2Æêk‘ï¿5Qâ
+bam = Bluecat::Api.new
+bam.poc
