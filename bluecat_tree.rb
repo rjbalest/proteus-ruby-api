@@ -64,9 +64,11 @@ module Bluecat
 
 end
 
-bam_tree = Bluecat::Tree.new
-# bam_tree.system_test
+if __FILE__ == $0
+  bam_tree = Bluecat::Tree.new
+  # bam_tree.system_test
 
-bam_tree.build_tree
+  bam_tree.build_tree
 
-print "JSON Tree: \n--------------\n %s\n" % bam_tree.configurations.to_json
+  print "JSON Tree: \n--------------\n %s\n" % bam_tree.configurations.to_json
+end
